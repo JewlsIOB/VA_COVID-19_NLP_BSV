@@ -16,8 +16,8 @@ setup(
     # packages=["cov_bsv",],
     packages=find_namespace_packages(include=["cov_bsv", "cov_bsv.knowledge_base"]),
     install_requires=[
-        "spacy<3.0.0",
-        "medspacy==0.1.0.0",
+    #    "spacy<3.0.0",
+    #    "medspacy==0.1.0.0",
     ],
     long_description=long_description,
     long_description_content_type="text/markdown",
